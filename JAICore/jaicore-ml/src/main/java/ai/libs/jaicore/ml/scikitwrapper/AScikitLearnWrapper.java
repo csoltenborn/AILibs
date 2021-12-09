@@ -457,4 +457,11 @@ public abstract class AScikitLearnWrapper<P extends IPrediction, B extends IPred
 		return this.pipeline;
 	}
 
+	public String getConstructorCall() {
+		return this.pipeline;
+	}
+	
+	public String getImports() {
+		return this.imports;
+	}
 }
