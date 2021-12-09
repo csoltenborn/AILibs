@@ -275,4 +275,13 @@ public abstract class ASimpleScikitLearnWrapper<P extends IPrediction, B extends
 			throw new PredictionException("Could not predict due to a DatasetCreationException", e);
 		}
 	}
+		
+	public String getConstructorCall() {
+		return this.constructorCall;
+	}
+	
+	public String getImports() {
+		return this.imports;
+	}
+
 }
